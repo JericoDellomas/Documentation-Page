@@ -37,7 +37,7 @@ background-color:#FFFFF7 ;
       width:auto;
       padding: 10px;
       font-size: 1.2em;
-      color:hsl(120, 100%, 25%);
+      color:#8B0000;
       text-shadow: 1px 1px black;
       font-weight: bolder;
       margin-left: auto;
@@ -118,7 +118,8 @@ padding:10px;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px;
   }
   td{
-    padding-left: 80px;
+    padding-left: 60px;
+    
   }
   tr{
     font-size: 15px;
@@ -127,11 +128,14 @@ padding:10px;
   }
   p{
     font-size: 17px;
-    font-weight: 550;
+    font-weight: bold;
+    
   }
   ul{
     padding: 25px;
   }
   span{
-    color:red;
+    color:#8B0000;
+    font-weight: bold;
   }
+  
