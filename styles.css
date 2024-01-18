@@ -132,4 +132,6 @@ padding:10px;
   ul{
     padding: 25px;
   }
-  
+  span{
+    color:red;
+  }
