@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Website Layout</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initital-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    
+      <nav id="navbar">
+        
+     <header>Flex box Documentation</header>
+     
+   <a class="nav-link" href="#flex-direction_1"> Flex-direction </a>
+   <a class="nav-link" href="#flex-wrap_2">Flex-wrap </a>
+    <a class="nav-link" href="#flex-flow_3">Flex-flow </a>
+   <a class="nav-link" href="#justify-content_4">Justify-content </a>
+     <a class="nav-link" href="#align-items_5">Align-items </a>
+
+      </nav>
+
+      <main id="main-doc">
+     <section class="main-section " id="flex-direction_1">
+       <header>Flex-direction </header>
+       <article>
+       <p>The <b>flex-direction</b> property specifies the direction of the flexible items.</p>
+        <p><b>Note:</b> If the element is not a flexible item, the flex-direction property has no effect.</p>
+        <h4>CSS SYNTAX</h4>
+        <p>flex-direction: <b>row|row-reverse|column|column-reverse|initial|inherit;</b></p>
+
+        <h4>Property Values</h4>
+        <table>
+            <tr>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>row</td>
+                <td>Default value. The flexible items are displayed horizontally, as a row</td>
+            </tr>
+            <tr>
+                <td>column</td>
+                <td>Same as row, but in reverse order</td>
+            </tr>
+            <tr>
+                <td>column-reverse</td>
+                <td>Same as column, but in reverse order</td>
+            </tr>
+            <tr>
+                <td>initial</td>
+                <td>Sets this property to its default value</td>
+            </tr>
+            <tr>
+                <td>inherit</td>
+                <td>Inherits this property from its parent element</td>
+            </tr>
+        </table>
+    </article>
+     </section>
+
+      <section class="main-section  " id="flex-wrap_2">
+       <header>Flex-wrap </header>
+       <article>
+        <p>The <b>flex-wrap</b> property specifies whether the flexible items should wrap or not.</p>
+        <p><b>Note:</b> If the elements are not flexible items, the flex-wrap property has no effect.</p>
+        <h4>CSS SYNTAX</h4>
+        <p>flex-wrap:<b> nowrap|wrap|wrap-reverse|initial|inherit;</b></p>
+        <h4>Property Values</h4>
+        <table>
+            <tr>
+                <th>Value</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>nowrap</td>
+                <td>Default value. Specifies that the flexible items will not wrap</td>
+            </tr>
+            <tr>
+                <td>wrap</td>
+                <td>Specifies that the flexible items will wrap if necessary</td>
+            </tr>
+            <tr>
+                <td>wrap-reverse</td>
+                <td>Specifies that the flexible items will wrap, if necessary, in reverse order</td>
+            </tr>
+            <tr>
+                <td>initial</td>
+                <td>Sets this property to its default value.</td>
+            </tr>
+            <tr>
+                <td>inherit</td>
+                <td>Inherits this property from its parent element.</td>
+            </tr>
+        </table>
+    </article>
+     </section>
+
+      <section class="main-section " id="flex-flow_3">
+       <header>Flex-flow </header>
+       <article>
+       <p>The <b>flex-flow</b> property is a shorthand property for:</p>
+       <ul>
+        <li><u>flex-direction</u></li>
+        <li><u>flex-wrap</u></li>
+       </ul>
+       <br>
+       <p><b>Note:</b>If the elements are not flexible items, the <b>flex-flow</b>property has no effect.</p>
+       <h4>CSS SYNTAX</h4>
+       <p>flex-flow: <b>flex-direction flex-wrap|initial|inherit;</b></p>
+       <h4>Property Values</h4>
+       <table>
+           <tr>
+               <th>Value</th>
+               <th>	Description</th>
+           </tr>
+           <tr>
+            <td>flex-direction</td>
+            <td>Default value is "row".</td>
+        </tr>
+        <tr>
+            <td>flex-wrap</td>
+            <td>Default value is "nowrap".</td>
+        </tr>
+           <tr>
+               <td>initial</td>
+               <td>Sets this property to its default value.</td>
+           </tr>
+           <tr>
+               <td>inherit</td>
+               <td>Inherits this property from its parent element.</td>
+           </tr>
+       </table>
+    </article>
+     </section>
+
+      <section class="main-section" id="justify-content_4">
+       <header>Justify-content </header>
+       <article>
+       <p>The <b>justify-content</b>property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).</p>
+       <p><b>Tip:</b> Use the <b>align-items</b> property to align the items vertically.</p>
+       <p><b>Note:</b> The <b>justify-content</b>property can also be used on a grid container to align grid items in the inline direction. For pages in English, inline direction is left to right and block direction is downward.
+
+
+       </p>
+       <h4>CSS SYNTAX</h4>
+       <p>justify-content:<b> flex-start|flex-end|center|space-between|space-around|space-evenly|initial|inherit;</b></p>
+       <h4>Property Values</h4>
+       <table>
+           <tr>
+               <th>Value</th>
+               <th>	Description</th>
+           </tr>
+           <tr>
+               <td>flex-start</td>
+               <td>Default value. Items are positioned at the beginning of the container</td>
+           </tr>
+           <tr>
+               <td>flex-end</td>
+               <td>Items are positioned at the end of the container</td>
+           </tr>
+           <tr>
+               <td>center</td>
+               <td>Items are positioned in the center of the container</td>
+           </tr>
+           <tr>
+               <td>space-between</td>
+               <td>Items will have space between them</td>
+           </tr>
+           <tr>
+               <td>space-around</td>
+               <td>Items will have space before, between, and after them	
+            </td>
+           </tr>
+           <tr>
+            <td>space-evenly</td>
+            <td>Items will have equal space around them</td>
+           </tr>
+           
+       </table>
+    </article>
+     </section>
+
+      <section class="main-section " id="align-items_5">
+       <header>Align-items </header>
+       <article>
+       <p>The <b>align-items</b> property specifies the default alignment for items inside a flexbox or grid container.</p>
+       <ul>
+        <li>In a flexbox container, the flexbox items are aligned on the cross axis, which is vertical by default (opposite of flex-direction).</li>
+        <li>In a grid container, the grid items are aligned in the block direction. For pages in English, block direction is downward and inline direction is left to right.</li>
+       </ul>
+       <br>
+       <p>For this property to have any alignment effect, the items need available space around themselves in the appropriate direction.</p>
+       <p><b>Tip:</b> User the <b>align-self</b> property of each item to override the  <b>align-item</b> property.</p>
+       <h4>CSS SYNTAX</h4>
+       <p>align-items: <b> normal|stretch|positional alignment|flex-start|flex-end|baseline|initial|inherit;</b></p>
+       <h4>Property Values</h4>
+       <table>
+           <tr>
+               <th>Value</th>
+               <th>	Description</th>
+           </tr>
+           <tr>
+               <td>normal</td>
+               <td>	Default. Behaves like 'stretch' for flexbox and grid items, or 'start' for grid items with a defined block size.</td>
+           </tr>
+           <tr>
+               <td>stretch</td>
+               <td>Items are stretched to fit the container</td>
+           </tr>
+           <tr>
+               <td>center</td>
+               <td>Items are positioned at the center of the container</td>
+           </tr>
+           <tr>
+               <td>flex-start</td>
+               <td>Items are positioned at the beginning of the container</td>
+           </tr>
+           <tr>
+               <td>flex-end</td>
+               <td>Items are positioned at the end of the container</td>
+           </tr>
+           <tr>
+            <td>start</td>
+            <td>Items are positioned at the beginning of their individual grid cells, in the block direction</td>
+        </tr>
+       </table>
+    </article>
+     </section>
+     
+    </main>
+  </body>
+</html>
